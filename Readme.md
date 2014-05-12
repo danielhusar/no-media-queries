@@ -2,7 +2,7 @@
 
 Export the css without mediaqueries matching maximum page width.
 
-Also avaiable as [gulp](https://github.com/danielhusar/gulp-no-media-queries)/grunt plugin.
+Also avaiable as [gulp](https://github.com/danielhusar/gulp-no-media-queries)/[grunt](https://github.com/danielhusar/grunt-no-media-queries) plugin.
 
 ## Install
 

@@ -19,7 +19,10 @@
     "url": "https://github.com/danielhusar/no-media-queries"
   },
   "dependencies": {
-    "rework": "*"
+    "rework": "*",
+    "css-mediaquery": "*",
+    "rework-no-media": "*",
+    "object-extend": "*"
   },
   "devDependencies": {
     "mocha": "*",

@@ -4,7 +4,7 @@ Export the css without mediaqueries matching maximum page width.
 
 ## Install
 
-Download [manually](https://github.com/danielhusar/no-media-queries) or with a package-manager.
+Download [manually](https://github.com/danielhusar/no-media-queries/archive/master.zip) or with a package-manager.
 
 #### [npm](https://npmjs.org/package/no-media-queries)
 

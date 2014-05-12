@@ -7,6 +7,9 @@
     "queries",
     "mediaqueries"
   ],
+  "bin": {
+    "nmq": "cli.js"
+  },
   "scripts": {
     "test": "mocha -R spec"
   },
@@ -14,6 +17,10 @@
     "name": "Daniel Husár",
     "email": "dano.husar@gmail.com"
   },
+  "files": [
+    "cli.js",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/danielhusar/no-media-queries"

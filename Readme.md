@@ -1,6 +1,6 @@
 # No Media Quaries [![Build Status](https://travis-ci.org/danielhusar/no-media-queries.svg)](https://travis-ci.org/danielhusar/no-media-queries)
 
-Export the css without mediaqueries matching maximum page width. 
+Export the css without mediaqueries matching maximum page width.
 
 ## Install
 
@@ -12,10 +12,82 @@ Download [manually](https://github.com/danielhusar/no-media-queries/archive/mast
 npm install --save no-media-queries
 ```
 
+### Sample usage
+
+```
+nmq(css, options, rewokOptions);
+```
+
+### Example
+
+This library will export all the relevant css rules form your css that match proper mediaquery breakpoint passed in.
+
+If we have css like this:
+
+```
+a{
+	color:red
+} 
+@media all and (min-width: 500px){
+	a{
+		color:red;
+	}
+}
+```
+
+Running: 
+
+```
+nmq(fs.readFileSync(input), {width: 600px});
+```
+
+Will result in:
+
+```
+a{
+	color:red;
+}
+```
+
+So we can have in our head css stylesheets like this:
 
 
-## Example
+&lt;link rel="stylesheet" href="responsive.css"&gt;
+
+&lt;!--[if (lt IE 9)]&gt;
+  &lt;link rel="stylesheet" href="no-responsive.css"&gt;
+&lt;![endif]--&gt;
+
+
+Where no-responsive.css will be output from no-media-queries libarry.
+
+## CSS
+
+Type: `String` or `Buffer`
+
+Css to parse.
+
+## Options
+
+
+#### width
+
+Type: `String`  
+Default: '10000px'
+
+Breakpint for our page width which should match mediaqueries.
+
+#### type
+
+Type: `String`  
+Default: 'all'
+Type of device.
+
+## RewokOptions
+
+
+[Rework options](https://github.com/reworkcss/rework)
 
 ## License
 
-MIT ©
+MIT © Daniel Husar

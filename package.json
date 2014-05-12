@@ -1,0 +1,29 @@
+{
+  "name": "no-media-queries",
+  "version": "0.0.1",
+  "description": "Export mediaqueries that match provided max page width",
+  "keywords": [
+    "media",
+    "queries",
+    "mediaqueries"
+  ],
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": {
+    "name": "Daniel Husár",
+    "email": "dano.husar@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielhusar/no-media-queries"
+  },
+  "dependencies": {
+    "rework": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "readmeFilename": "Readme.md"
+}

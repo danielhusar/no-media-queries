@@ -52,13 +52,12 @@ a{
 ```
 
 So we can have in our head css stylesheets like this:
-
-
-&lt;link rel="stylesheet" href="responsive.css"&gt;
-
-&lt;!--[if (lt IE 9)]&gt;
-  &lt;link rel="stylesheet" href="no-responsive.css"&gt;
-&lt;![endif]--&gt;
+```html
+<link rel="stylesheet" href="responsive.css">
+<!--[if (lt IE 9)]>
+  <link rel="stylesheet" href="no-responsive.css">
+<![endif]-->
+```
 
 
 Where no-responsive.css will be output from no-media-queries libarry.

@@ -15,7 +15,7 @@ npm install --save no-media-queries
 ### Sample usage
 
 ```
-nmq(css, options, rewokOptions);
+nmq(css, options, reworkOptions);
 ```
 
 ### Example
@@ -38,7 +38,7 @@ a{
 Running: 
 
 ```
-nmq(fs.readFileSync(input), {width: 600px});
+nmq(fs.readFileSync('responsive.css'), {width: 600px});
 ```
 
 Will result in:
@@ -83,10 +83,9 @@ Type: `String`
 Default: 'all'
 Type of device.
 
-## RewokOptions
+## ReworkOptions
 
-
-[Rework options](https://github.com/reworkcss/rework)
+[Rework options](https://github.com/reworkcss/rework#reworktostringoptions)
 
 ## License
 

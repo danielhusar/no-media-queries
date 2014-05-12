@@ -28,11 +28,11 @@ If we have css like this:
 
 ```
 a{
-	color:red
+	color: blue;
 } 
 @media all and (min-width: 500px){
 	a{
-		color:red;
+		color: red;
 	}
 }
 ```
@@ -47,7 +47,7 @@ Will result in:
 
 ```
 a{
-	color:red;
+	color: red;
 }
 ```
 

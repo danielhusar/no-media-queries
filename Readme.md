@@ -1,6 +1,7 @@
 # No Media Quaries [![Build Status](https://travis-ci.org/danielhusar/no-media-queries.svg)](https://travis-ci.org/danielhusar/no-media-queries)
 
 Export the css without mediaqueries matching maximum page width.
+This library can be used when you cant use respond.js, so you can have separated stylesheet for non responsive layout for IE8.
 
 Also avaiable as [gulp](https://github.com/danielhusar/gulp-no-media-queries)/[grunt](https://github.com/danielhusar/grunt-no-media-queries) plugin.
 
@@ -19,6 +20,28 @@ npm install --save no-media-queries
 ```
 nmq(css, options, reworkOptions);
 ```
+### CLI
+
+You can also use it as a CLI app by installing it globally:
+
+
+```
+npm install --global no-media-queries
+```
+
+```bash
+$ nmq --help
+
+Usage:
+  $ nmq <file> > <new-file>
+
+Example:
+  $ nmq responsive.css > non-responsive.css
+
+Custom options: (options with one dash, reworkOptions with two dashes)
+  $ nmq responsive.css > non-responsive.css -width=200px --compress=true
+```
+
 
 ### Example
 

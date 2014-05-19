@@ -1,4 +1,4 @@
-# No Media Quaries [![Build Status](https://travis-ci.org/danielhusar/no-media-queries.svg)](https://travis-ci.org/danielhusar/no-media-queries)
+# No Media Queries [![Build Status](https://travis-ci.org/danielhusar/no-media-queries.svg)](https://travis-ci.org/danielhusar/no-media-queries)
 
 Export the css without mediaqueries matching maximum page width.
 This library can be used when you cant use respond.js, so you can have separated stylesheet for non responsive layout for IE8.

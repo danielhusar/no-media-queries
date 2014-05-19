@@ -12,7 +12,7 @@ describe('Non responsive tests', function(){
 
 describe('Responsive tests', function(){
 
-  it('simple test', function () {
+  it('Simple test', function () {
     nmq('a{color:blue} @media all and (min-width: 500px){a{color:red;}}', {}, {compress: true}).should.equal('a{color:red;}');
   });
 

@@ -1,6 +1,6 @@
 {
   "name": "no-media-queries",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Export mediaqueries that match provided max page width",
   "keywords": [
     "media",
@@ -28,14 +28,14 @@
     "url": "https://github.com/danielhusar/no-media-queries"
   },
   "dependencies": {
-    "rework": "*",
-    "css-mediaquery": "*",
-    "rework-no-media": "*",
-    "object-extend": "*"
+    "rework": "^0.20.3",
+    "css-mediaquery": "^0.1.2",
+    "rework-no-media": "^0.1.3",
+    "object-extend": "^0.5.0"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+    "mocha": "^1.18.2",
+    "should": "^3.3.1"
   },
   "readmeFilename": "Readme.md"
 }

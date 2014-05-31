@@ -11,13 +11,13 @@ Download [manually](https://github.com/danielhusar/no-media-queries/archive/mast
 
 #### [npm](https://npmjs.org/package/no-media-queries)
 
-```
+```bash
 npm install --save no-media-queries
 ```
 
 ### Sample usage
 
-```
+```bash
 nmq(css, options, reworkOptions);
 ```
 ### CLI
@@ -25,7 +25,7 @@ nmq(css, options, reworkOptions);
 You can also use it as a CLI app by installing it globally:
 
 
-```
+```bash
 npm install --global no-media-queries
 ```
 
@@ -49,7 +49,7 @@ This library will export all the relevant css rules form your css that match pro
 
 If we have css like this:
 
-```
+```css
 a{
 	color: blue;
 } 
@@ -62,13 +62,13 @@ a{
 
 Running: 
 
-```
+```javascript
 nmq(fs.readFileSync('responsive.css'), {width: 600px});
 ```
 
 Will result in:
 
-```
+```css
 a{
 	color: red;
 }

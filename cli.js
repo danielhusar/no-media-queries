@@ -22,7 +22,7 @@ function help() {
   console.log('');
   console.log('Custom options:');
   console.log('Non Media Quaries options with one dash "-", rewok options with two dash "--"');
-  console.log('  $ nmq responsive.css > non-responsive.css -width=200px --compress=true');
+  console.log('  $ nmq responsive.css > non-responsive.css --width=200px --compress=true');
 }
 
 function init(data) {

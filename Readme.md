@@ -39,7 +39,7 @@ Example:
   $ nmq responsive.css > non-responsive.css
 
 Custom options: (options with one dash, reworkOptions with two dashes)
-  $ nmq responsive.css > non-responsive.css --width=200px --compress=true
+  $ nmq responsive.css > non-responsive.css -width=200px --compress=true
 ```
 
 

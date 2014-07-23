@@ -99,7 +99,7 @@ Css to parse.
 Type: `String`  
 Default: '10000px'
 
-Breakpint for our page width which should match mediaqueries.
+Breakpoint for our page width which should match mediaqueries.
 
 #### type
 

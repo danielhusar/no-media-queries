@@ -1,6 +1,6 @@
 {
   "name": "no-media-queries",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Export mediaqueries that match provided max page width",
   "keywords": [
     "media",

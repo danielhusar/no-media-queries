@@ -7,8 +7,12 @@ var input = process.argv[2];
 
 function stdin(cb) {
   var ret = '';
-  process.stdin.on('data', function (data) { ret += data });
-  process.stdin.on('end', cb.bind(null, ret));
+  process.stdin.on('data', function (data) { 
+    ret += data;
+  });
+  process.stdin.on('end', function () {
+    cb(ret);
+  });
 }
 
 function help() {
